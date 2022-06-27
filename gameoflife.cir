@@ -1,10 +1,11 @@
 .title KiCad schematic
 U1 Net-_U1-Pad1_ r1 g1 Net-_U1-Pad4_ g0 r0 i00 GND g1 g0 i21 i02 Net-_U1-Pad13_ i01 i01 +5V 74LS283
-U3 +5V i11 GND GND out unconnected-_U3-Pad6_ Net-_U1-Pad13_ GND i12 Net-_U1-Pad1_ Net-_U1-Pad4_ GND +5V i11 GND +5V 74LS151
-U7 +5V i12 GND GND out unconnected-_U7-Pad6_ Net-_U5-Pad13_ GND i22 Net-_U5-Pad1_ Net-_U5-Pad4_ GND +5V i12 GND +5V 74LS151
-U4 +5V i21 GND GND out unconnected-_U4-Pad6_ Net-_U2-Pad13_ GND i11 Net-_U2-Pad1_ Net-_U2-Pad4_ GND +5V i21 GND +5V 74LS151
+U4 +5V i21 GND GND o21 unconnected-_U4-Pad6_ Net-_U2-Pad13_ GND i11 Net-_U2-Pad1_ Net-_U2-Pad4_ GND +5V i21 GND +5V 74LS151
 U2 Net-_U2-Pad1_ b1 r1 Net-_U2-Pad4_ r0 b0 i30 GND r1 r0 i20 i10 Net-_U2-Pad13_ i22 i22 +5V 74LS283
-U8 +5V i22 GND GND out unconnected-_U8-Pad6_ Net-_U6-Pad13_ GND i21 Net-_U6-Pad1_ Net-_U6-Pad4_ GND +5V i22 GND +5V 74LS151
+U3 +5V i11 GND GND o11 unconnected-_U3-Pad6_ Net-_U1-Pad13_ GND i12 Net-_U1-Pad1_ Net-_U1-Pad4_ GND +5V i11 GND +5V 74LS151
 U6 Net-_U6-Pad1_ p1 b1 Net-_U6-Pad4_ b0 p0 i33 GND b1 b0 i32 i31 Net-_U6-Pad13_ i12 i12 +5V 74LS283
 U5 Net-_U5-Pad1_ g1 p1 Net-_U5-Pad4_ p0 g0 i03 GND p1 p0 i32 i13 Net-_U5-Pad13_ i11 i11 +5V 74LS283
+U8 +5V i22 GND GND o22 unconnected-_U8-Pad6_ Net-_U6-Pad13_ GND i21 Net-_U6-Pad1_ Net-_U6-Pad4_ GND +5V i22 GND +5V 74LS151
+U7 +5V i12 GND GND o12 unconnected-_U7-Pad6_ Net-_U5-Pad13_ GND i22 Net-_U5-Pad1_ Net-_U5-Pad4_ GND +5V i12 GND +5V 74LS151
+U9 unconnected-_U9-Pad1_ unconnected-_U9-Pad2_ o11 o12 o21 o22 unconnected-_U9-Pad7_ GND unconnected-_U9-Pad9_ unconnected-_U9-Pad10_ unconnected-_U9-Pad11_ i22 i21 i12 i11 +5V 74LS194
 .end
